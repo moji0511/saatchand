@@ -2,7 +2,7 @@ import telebot
 from datetime import datetime
 import pytz
 
-TOKEN = 'توکن_ربات_تو_اینجا'
+TOKEN = '7918766042:AAFt9GdXQFZyenehu5b0C-eAqX860nwQRmk'
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(func=lambda message: 'ساعتچند' in message.text)
